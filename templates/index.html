@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block title %}Less Spam{% endblock title %}
+{% block content %}
+<div class="body">
+<img src="{{url_for('static', filename='images/searcher.png')}}" class="banner">
+<p font-family: 'Balsamiq Sans', cursive;> +1 580 681 1131 </p>
+<img src="{{url_for('static', filename='images/arrow.gif')}}" width="100px" height="100px" >
+<h1 font-family: 'Balsamiq Sans', cursive;> Search for a number below! </h1>
+<br>
+<div class=search>
+    <form action="#number" class="form" onsubmit="return queryDb();">
+        <input type="number" required id="number" name="number">
+        <i class="fa fa-search"></i>
+    </form>
+    <br>
+    <br>
+</div>
+<table>
+    <tr>
+        <th>Phone Number</th>
+        <th># of Reports</th>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber0"></div>
+        </td>
+        <td>
+            <div id="myCount0">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber1"></div>
+        </td>
+        <td>
+            <div id="myCount1">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber2"></div>
+        </td>
+        <td>
+            <div id="myCount2">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber3"></div>
+        </td>
+        <td>
+            <div id="myCount3">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber4"></div>
+        </td>
+        <td>
+            <div id="myCount4">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber5"></div>
+        </td>
+        <td>
+            <div id="myCount5">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber6"></div>
+        </td>
+        <td>
+            <div id="myCount6">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber7"></div>
+        </td>
+        <td>
+            <div id="myCount7">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber8"></div>
+        </td>
+        <td>
+            <div id="myCount8">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="myNumber9"></div>
+        </td>
+        <td>
+            <div id="myCount9">
+        </td>
+    </tr>
+</table>
+<br>
+<br>
+<p font-family: 'Balsamiq Sans', cursive;> Less Spam Phone Number: +1 580 681 1131 </p>
+<p font-family: 'Balsamiq Sans', cursive; style="font-size: 15px;"> Send any valid phone number to us, and you'll be expanding our database of spam numbers! </p>
+<br>
+<br>
+{% endblock content %}
