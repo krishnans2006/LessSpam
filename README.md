@@ -14,7 +14,7 @@ Languages:
  - HTML (Designing the structure of the website)
  - CSS (Styling the website)
  - JavaScript (Searching phone numbers on the website)
- - Python (What Flask runs on ⬇)
+ - Python (What Flask runs on ⬇) 
     - Flask (Runs Flask and the Twilio SMS webhook)
 
 Tools:
@@ -33,7 +33,7 @@ Another challenge that we ran into was the search bar on our site: we had many i
 Overall, we were really proud of how the website ended up turning out. We are honestly proud of the fact that we made a complete and working winter-themed application connecting online security with the world. We designed the entire website from scratch (instead of using a website template), and designed the logo & banner too. Aditionally, learning tons of new tools like Firebase and Twilio was a great experience, and we really enjoyed this project. 
 
 ## What we learned 🔋🔋
-We were mostly new to using Firebase and Firestore in our application, and especially it's usage in both Python *and* JavaScript. Additionally, we were unfamiliar with Twilio as a whole, but were super interested in it and learned how to create complex reply chains and other cool Twilio features. Finally, we were mostly new to live updates and single-page sites, as although we had made websites before, a new page for search results just didn't feel right. This forced us to learn complicated JavaScript to let us find search queries and update the data live.
+We were mostly new to using Firebase and Firestore in our application, specifically it's usage in both Python *and* JavaScript. Additionally, we were unfamiliar with Twilio as a whole, but were super interested in it and learned how to create complex reply chains and other cool Twilio features. Finally, we were mostly new to live updates and single-page sites, as although we had made websites before, a new page for search results just didn't feel right. This forced us to learn complicated JavaScript to let us find search queries and update the data live.
 
 ## What's next for Less Spam 📞📞
 We want to help people stay safer online. We hope to build some sort of a defense mechanism for users to only enter a phone number once, in order to ensure that the number of reports stays valid (meaning one specific number can only report a specific spam number once, and there is a cooldown per-user for reporting any spam numbers). Additionally, we hope to improve our visual aesthetic in the future, and hopefully add more content/functionality to our site, such as the ability to submit records through a website instead of only through SMS.
