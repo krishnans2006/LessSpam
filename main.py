@@ -2,16 +2,19 @@ from flask import Flask, render_template, redirect, url_for, request, session, g
 from twilio.rest import Client
 from twilio.twiml.messaging_response import MessagingResponse
 
-
 import firebase_admin
 from firebase_admin import credentials, firestore
 
+from dotenv import load_dotenv
 import re
+import os
 
 app = Flask(__name__)
 
-account_sid = "AC347d2311e6c4e143683a712e24324db1"
-auth_token = "5ff32eab5cc0619af6a728298a7cbf4b"
+load_dotenv()
+
+account_sid = os.getenv("ACCOUNT_SID")
+auth_token = os.getenv("AUTH_TOKEN")
 twilio = Client(account_sid, auth_token)
 
 cred = credentials.Certificate("creds.json")
